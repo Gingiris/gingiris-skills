@@ -1,0 +1,52 @@
+{
+  "name": "gingiris-skills",
+  "owner": {
+    "name": "Gingiris"
+  },
+  "metadata": {
+    "description": "Iris / Gingiris 出海增长工具箱 — 把 6 个 gingiris-* playbook repo + 每日 SEO/GEO 运营脚本打包成 Claude Code skills",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "gr",
+      "description": "Gingiris growth toolkit 主入口。根据你的问题自动路由到对的子工具（发布、SEO、内容、对标等）。",
+      "source": "./",
+      "strict": false,
+      "version": "0.1.0",
+      "category": "growth-marketing",
+      "keywords": ["growth", "router", "toolkit", "oss-marketing", "seo", "product-hunt"],
+      "skills": ["./skills/gr"]
+    },
+    {
+      "name": "gr-seo-patrol",
+      "description": "每日 SEO/GEO 巡逻：SERP 排名、Google 索引数、llms.txt、GA4 部署、canonical 合并、社媒雪崩救援。接入 DataForSEO + GitHub API。",
+      "source": "./",
+      "strict": false,
+      "version": "0.1.0",
+      "category": "growth-marketing",
+      "keywords": ["seo", "geo", "serp", "dataforseo", "canonical", "monitoring"],
+      "skills": ["./skills/gr-seo-patrol"]
+    },
+    {
+      "name": "gr-blog-post",
+      "description": "Jekyll 博客发布：Iris 文风（时间锚定、Key Stats 表格、em-dash 转折）+ hreflang 中英日韩同步 + canonical + FAQ Schema。",
+      "source": "./",
+      "strict": false,
+      "version": "0.1.0",
+      "category": "growth-marketing",
+      "keywords": ["blog", "jekyll", "seo", "i18n", "hreflang", "canonical", "writing-style"],
+      "skills": ["./skills/gr-blog-post"]
+    },
+    {
+      "name": "gr-ph-launch",
+      "description": "Product Hunt 发布剧本。30x #1 winner 的完整 go-to-market 流程：预热、发布日、后续 momentum。从 gingiris-launch 提炼。",
+      "source": "./",
+      "strict": false,
+      "version": "0.1.0",
+      "category": "growth-marketing",
+      "keywords": ["product-hunt", "launch", "go-to-market", "hunter", "maker-comment"],
+      "skills": ["./skills/gr-ph-launch"]
+    }
+  ]
+}
