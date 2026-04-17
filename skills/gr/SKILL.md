@@ -24,11 +24,11 @@ metadata:
 | "排名掉了 / 索引不上 / canonical / SEO 日报 / GA4" | `gr-seo-patrol` |
 | "写博客 / 发文章 / 文风 / hreflang / 日韩同步" | `gr-blog-post` |
 | "发 PH / Product Hunt / hunter / maker comment" | `gr-ph-launch` |
-| "OSS 营销 / GitHub stars / 开源增长" | `gr-oss-marketing`（roadmap） |
-| "B2B / PLG / SLG / SaaS 增长" | `gr-b2b-growth`（roadmap） |
-| "ASO / App Store" | `gr-aso`（roadmap） |
-| "用户访谈 / PMF" | `gr-user-interview`（roadmap） |
-| "分析对手 / 竞品" | `gr-competitor`（roadmap） |
+| "OSS 营销 / GitHub stars / 开源增长 / Reddit / HN" | `gr-oss-marketing` |
+| "B2B / PLG / SLG / SaaS 增长 / PMF" | `gr-b2b-growth` |
+| "ASO / App Store / UGC 创作者 / 冷启动" | `gr-aso` |
+| "用户访谈 / find PMF / 怎么问用户" | `gr-user-interview` |
+| "分析对手 / 竞品扫描 / 定价对比 / 对手博客" | `gr-competitor` |
 
 ---
 
