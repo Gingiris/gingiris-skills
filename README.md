@@ -8,7 +8,7 @@ Iris / Gingiris 的出海增长工具箱 —— 把 6 个 gingiris-* playbook re
 
 ---
 
-## 工具箱（MVP 0.1.0）
+## 工具箱（v0.2.0 — 9 个 skill）
 
 | Skill | 做什么 |
 |---|---|
@@ -16,18 +16,20 @@ Iris / Gingiris 的出海增长工具箱 —— 把 6 个 gingiris-* playbook re
 | `/gr-seo-patrol` | 每日 SEO/GEO 巡逻 — SERP 追踪、canonical 修复、社媒雪崩救援 |
 | `/gr-blog-post` | Jekyll 博客发布 — Iris 文风 + hreflang 中英日韩 + FAQ Schema |
 | `/gr-ph-launch` | Product Hunt 发布剧本 — 30x 日冠经验 |
+| `/gr-oss-marketing` | 开源项目整合营销 — GitHub star、KOL、Reddit/HN/Discord |
+| `/gr-b2b-growth` | B2B SaaS 增长 — PMF → $10M ARR，PLG/SLG 选型 |
+| `/gr-aso` | ASO + App 冷启动 — metadata、UGC 矩阵、TikTok 投流 |
+| `/gr-user-interview` | 用户访谈 — HeyGen 937 访谈方法论 |
+| `/gr-competitor` | 竞品扫描 — 底层调 [actionbook](https://actionbook.dev)，10x 快，30 tab 并发 |
 
-### Roadmap（0.2-0.3）
+### Roadmap（0.3+）
 
 | Skill | 来源 |
 |---|---|
-| `/gr-oss-marketing` | 从 `Gingiris/gingiris-opensource` 提炼 |
-| `/gr-b2b-growth` | 从 `Gingiris/gingiris-b2b-growth` 提炼 |
-| `/gr-aso` | 从 `Gingiris/gingiris-aso-growth` 提炼 |
-| `/gr-user-interview` | 从 `Gingiris/gingiris-user-interview` 提炼 |
-| `/gr-competitor` | 包装 `Gingiris/Competitor-analysis-tool` |
 | `/gr-ph-comment` | 包装 `Gingiris/ph-comment-generator` |
 | `/gr-gh-outreach` | 包装 `Gingiris/github-issue-generator` |
+| `/gr-readme` | 包装 `Gingiris/github-readme-generator` |
+| `/gr-hunter-radar` | 结合 actionbook 扫 PH hunter 活跃度 |
 
 ---
 
