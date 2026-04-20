@@ -29,6 +29,7 @@ metadata:
 | "ASO / App Store / UGC 创作者 / 冷启动" | `gr-aso` |
 | "用户访谈 / find PMF / 怎么问用户" | `gr-user-interview` |
 | "分析对手 / 竞品扫描 / 定价对比 / 对手博客" | `gr-competitor` |
+| "博客拆成推特 / 小红书 / LinkedIn / dev.to 二发 / 社媒分发" | `gr-social-distill` |
 
 ---
 
