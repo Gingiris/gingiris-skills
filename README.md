@@ -8,7 +8,7 @@ Iris / Gingiris 的出海增长工具箱 —— 把 6 个 gingiris-* playbook re
 
 ---
 
-## 工具箱（v0.2.0 — 9 个 skill）
+## 工具箱（v0.2.1 — 10 个 skill）
 
 | Skill | 做什么 |
 |---|---|
@@ -21,6 +21,7 @@ Iris / Gingiris 的出海增长工具箱 —— 把 6 个 gingiris-* playbook re
 | `/gr-aso` | ASO + App 冷启动 — metadata、UGC 矩阵、TikTok 投流 |
 | `/gr-user-interview` | 用户访谈 — HeyGen 937 访谈方法论 |
 | `/gr-competitor` | 竞品扫描 — 底层调 [actionbook](https://actionbook.dev)，10x 快，30 tab 并发 |
+| `/gr-social-distill` | 博客 → 4 社媒变体（X / 小红书 / LinkedIn / dev.to-Zenn），激活 Organic Social |
 
 ### Roadmap（0.3+）
 
