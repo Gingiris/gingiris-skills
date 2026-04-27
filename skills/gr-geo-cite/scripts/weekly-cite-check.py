@@ -98,6 +98,28 @@ def ask_gemini(q):
         return f"ERR: {e}"
 
 
+def ask_deepseek(q):
+    """Fallback when no other AI key is available. Knowledge cutoff ~2024
+    so cite-rate < real-time AIs, but at least gives a baseline data point."""
+    key = os.environ.get("DEEPSEEK_API_KEY")
+    if not key: return None
+    payload = json.dumps({
+        "model": "deepseek-chat",
+        "messages": [{"role": "user", "content": q}],
+        "max_tokens": 1024,
+    }).encode()
+    req = urllib.request.Request(
+        "https://api.deepseek.com/v1/chat/completions",
+        data=payload,
+        headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=90) as r:
+            d = json.loads(r.read())
+        return d["choices"][0]["message"]["content"]
+    except Exception as e:
+        return f"ERR: {e}"
+
+
 def find_citations(text, domains):
     """Return list of {domain, snippet} for each match."""
     hits = []
@@ -119,6 +141,7 @@ def main():
         "gpt": ask_gpt,
         "perplexity": ask_perplexity,
         "gemini": ask_gemini,
+        "deepseek": ask_deepseek,
     }
 
     for q in QUERIES:
