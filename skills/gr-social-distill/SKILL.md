@@ -54,7 +54,7 @@ metadata:
 [推 3-12 — BODY] 每推一个要点。每推 ≤ 280 字。用短句。
 [推 13 — TL;DR] 回到 HOOK 的答案
 [推 14 — LINK] 链接到原博客 + 1 句 why it's worth clicking
-[推 15 — CTA] @iris__wei if you want the template
+[推 15 — CTA] @WeiYipei if you want the template
 ```
 
 **原则**：
