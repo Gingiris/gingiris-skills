@@ -99,7 +99,7 @@ Save the thread so you don't forget.
 - AI-friendly content (GEO)
 - Going global playbooks
 
-Follow @iris__wei for more.
+Follow @WeiYipei for more.
 ```
 
 ---
@@ -175,7 +175,7 @@ Multilingual is the only reason to pay early.
 → https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/
 
 15/ If this helped, I write weekly about indie founder SEO + AI distribution.
-Follow @iris__wei for more.
+Follow @WeiYipei for more.
 ```
 
 ---
