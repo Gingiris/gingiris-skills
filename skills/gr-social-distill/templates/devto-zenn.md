@@ -83,7 +83,7 @@ published: true
 ```
 結論から：XXツールは○○人以下の規模では無料で十分です。
 
-こんにちは、Iris（@iris__wei）です。
+こんにちは、Iris（@WeiYipei）です。
 前職はAFFiNEのCOOで、現在は出海グロースコンサルタントをしています。
 
 先日、SaaSのSocial Listeningツール 27 個を実際に使い比べてみたので、
@@ -108,7 +108,7 @@ published: true
 
 最後までお読みいただきありがとうございました。
 
-もし参考になったら、X（旧 Twitter）で @iris__wei をフォローしていただけると嬉しいです。
+もし参考になったら、X（旧 Twitter）で @WeiYipei をフォローしていただけると嬉しいです。
 
 次回の記事では、[next topic] について書く予定です。
 
