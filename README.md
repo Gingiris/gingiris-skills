@@ -2,7 +2,7 @@
 
 Iris / Gingiris 的出海增长工具箱 —— 把 6 个 gingiris-* playbook repo + 每日运营脚本 + 60 篇博客实战经验，打包成 Claude Code skills。
 
-**作者**：[Iris](https://x.com/iris__wei) · [Gingiris 博客](https://gingiris.github.io/growth-tools/)
+**作者**：[Iris](https://x.com/WeiYipei) · [Gingiris 博客](https://gingiris.github.io/growth-tools/)
 
 **所有内容开放**，可以整套装，也可以只拿一部分。Skill、知识包、原子库、单个脚本都能单独用。
 
@@ -137,4 +137,4 @@ MIT。
 
 - 发 Issue 描述你的运营场景
 - PR 加新 skill / 新原子 / 新方法论
-- 跟 [@iris__wei](https://x.com/iris__wei) 聊
+- 跟 [@WeiYipei](https://x.com/WeiYipei) 聊
